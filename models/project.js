@@ -1,5 +1,5 @@
-const projects = [
-        {
+const projects = {
+        "PhoceaTravel":{
             "id": "PhoceaTravel",
             "logo": "/Projects/PhoceaTravel/phocea-travel-logo.png",
             "pictures": [
@@ -43,7 +43,7 @@ const projects = [
             "github": "https://github.com/Jerome-Baille/phocea-travel",
             "demo": "https://jerome-baille.github.io/phocea-travel/"
         },
-        {
+        "OhMyFood": {
             "id": "OhMyFood",
             "logo": "/Projects/OhMyFood/ohMyFood-logo.png",
             "pictures": [
@@ -95,7 +95,7 @@ const projects = [
             "github": "https://github.com/Jerome-Baille/JeromeBaille_3_21102021",
             "demo": "https://jerome-baille.github.io/JeromeBaille_3_21102021/"
         },
-        {
+        "LaChouetteAgence": {
             "id": "LaChouetteAgence",
             "logo": "/Projects/LaChouetteAgence/laChouetteAgence-logo.png",
             "pictures": [
@@ -139,7 +139,7 @@ const projects = [
             "github": "https://github.com/Jerome-Baille/JeromeBaille_4_09122021",
             "demo": "https://jerome-baille.github.io/JeromeBaille_4_09122021/"
         },
-        {
+        "Kanap": {
             "id": "Kanap",
             "logo": "/Projects/Kanap/kanap-logo.png",
             "pictures": [
@@ -186,7 +186,7 @@ const projects = [
             "github": "https://github.com/Jerome-Baille/JeromeBaille_5_03012022",
             "demo": "https://jerome-baille.github.io/JeromeBaille_5_03012022"
         },
-        {
+        "Piiquante": {
             "id": "Piiquante",
             "logo": "/Projects/Piiquante/piiquante-logo.png",
             "pictures": [
@@ -231,7 +231,7 @@ const projects = [
             "tags": "#API  #Node.js  #Express.js  #MongoDB",
             "github": "https://github.com/Jerome-Baille/JeromeBaille_6_24012022"
         },
-        {
+        "Groupomania": {
             "id": "Groupomania",
             "logo": "/Projects/Groupomania/groupomania-logo.png",
             "pictures": [
@@ -286,7 +286,7 @@ const projects = [
             "tags": "#Angular  #Node.js  #Express.js  #MySQL  #SocialNetwork",
             "github": "https://github.com/Jerome-Baille/JeromeBaille_7_23022022"
         }
-];
+};
 
 exports.find = () => {
     return new Promise((resolve, reject) => resolve(JSON.parse(JSON.stringify(projects))));
