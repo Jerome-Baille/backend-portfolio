@@ -29,6 +29,14 @@ const projects = {
                     "url": "/Stack/react.svg"
                 },
                 {
+                    "name": "HTML 5",
+                    "url": "/Stack/html5.svg"
+                },
+                {
+                    "name": "CSS 3",
+                    "url": "/Stack/css3.svg"
+                },
+                {
                     "name": "Sass",
                     "url": "/Stack/sass.svg"
                 }
@@ -74,6 +82,10 @@ const projects = {
             ],
             "stack": [
                 {
+                    "name": "React",
+                    "url": "/Stack/react.svg"
+                },
+                {
                     "name": "HTML 5",
                     "url": "/Stack/html5.svg"
                 },
@@ -91,9 +103,9 @@ const projects = {
                 "Create a system to book reservations",
                 "Create a restaurant access for them to manage their own menu"
             ],
-            "tags": "#HTML5  #CSS3  #Sass",
-            "github": "https://github.com/Jerome-Baille/JeromeBaille_3_21102021",
-            "demo": "https://jerome-baille.github.io/JeromeBaille_3_21102021/"
+            "tags": "#React #HTML5 #CSS3  #Sass",
+            "github": "https://github.com/Jerome-Baille/ohmyfood",
+            "demo": "https://jerome-baille.github.io/ohmyfood/"
         },
         "LaChouetteAgence": {
             "id": "LaChouetteAgence",
