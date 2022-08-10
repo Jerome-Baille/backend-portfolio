@@ -1,5 +1,5 @@
-const certifications = {
-    "MetaFrontendDeveloper": {
+const certifications = [
+    {
         "id": "MetaFrontendDeveloper",
         "status" : "Active",
         "name" : "Front-end Developer",
@@ -19,7 +19,7 @@ const certifications = {
             "Coding Interview Preparation"
         ]      
     },
-    "GoogleUXDesign": {
+    {
         "id": "GoogleUXDesign",
         "status" : "Active",
         "name" : "UX Design",
@@ -37,7 +37,7 @@ const certifications = {
             "Design a User Experience for Social Good & Prepare for Jobs"
         ]       
     },
-    "MetaBackendDeveloper": {
+    {
         "id": "MetaBackendDeveloper",
         "status" : "Planned",
         "name" : "Back-end Developer",
@@ -58,7 +58,7 @@ const certifications = {
             "Coding Interview Preparation"
         ]      
     },
-    "GoogleProjectManager": {
+    {
         "id": "GoogleProjectManager",
         "status" : "Planned",
         "name" : "Project Manager",
@@ -75,7 +75,7 @@ const certifications = {
             "Capstone: Applying Project Management in the Real World"
         ]       
     },
-    "AWSCloudPractitionerEssentials": {
+    {
         "id": "AWSCloudPractitionerEssentials",
         "status" : "Planned",
         "name" : "AWS Cloud Practitioner Essentials",
@@ -93,7 +93,7 @@ const certifications = {
             "AWS Certified Cloud Practitioner Basics"
         ]       
     },
-    "AWSDevOps":{
+    {
         "id": "AWSDevOps",
         "status" : "Planned",
         "name" : "DevOps on AWS",
@@ -108,7 +108,7 @@ const certifications = {
             "DevOps on AWS: Operate and Monitor"
         ]       
     }
-};
+];
 
 exports.find = () => {
     return new Promise((resolve, reject) => resolve(JSON.parse(JSON.stringify(certifications))));
