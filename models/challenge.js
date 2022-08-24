@@ -9,6 +9,17 @@ const challenges = [
         ],
         website: 'https://100dayscss.com/',
         url: '#'
+    },
+    {
+        id: 2,
+        status: 'Active',
+        name: 'Google Kick Start 2022',
+        description: [
+            "Kick Start offers coders around the world the chance to develop and hone their programming skills through online-hosted competition rounds.",
+            "The three-hour rounds feature a variety of algorithmic challenges, all developed by Google engineers so that you get a taste of the technical skills needed for a career at Google (the top competitors from our Kick Start rounds may be invited to interview at Google!)."
+        ],
+        website: 'https://codingcompetitions.withgoogle.com/kickstart/about',
+        url: '#'
     }
 ];
 
