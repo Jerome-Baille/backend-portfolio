@@ -12,22 +12,25 @@ exports.getAllDatas = (req, res) => {
 };
 
 exports.getOneData = (req, res) => {
-    Project.findById(req.params.id)
+    const projectId = req.params.id;
+
+
+    Project.findById(projectId)
         .then(data => {
             if (!data) {
                 return res.status(404).send({
-                    message: "Data not found with id " + req.params.dataId
+                    message: "Data not found with id " + req.params.id
                 });
             }
             res.send(data);
         }).catch(err => {
             if (err.kind === 'ObjectId') {
                 return res.status(404).send({
-                    message: "Data not found with id " + req.params.dataId
+                    message: "Data not found with id " + req.params.id
                 });
             }
             return res.status(500).send({
-                message: "Error retrieving data with id " + req.params.dataId
+                message: "Error retrieving data with id " + req.params.id
             });
         });
 }

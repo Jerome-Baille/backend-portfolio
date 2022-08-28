@@ -306,8 +306,6 @@ exports.find = () => {
 
 exports.findById = (id) => {
     return new Promise((resolve, reject) =>
-        resolve(JSON.parse(JSON.stringify(projects)).find(project =>
-        project.id == id)
-        )
+        resolve(JSON.parse(JSON.stringify(projects[id])))
     );
 }
